@@ -7,15 +7,21 @@ import Form from './components/Form';
 
 function App() {
   return (
-    <div>
+    <>
+      <header>
       <Title />
       <ul>
         <Navigation />
         <SearchBar />
       </ul>
-      <Display />
-      <Form />
-    </div>
+      </header>
+      <main>
+        <Display />
+      </main>
+      <footer>
+        <Form />
+      </footer>
+    </>
   );
 }
 

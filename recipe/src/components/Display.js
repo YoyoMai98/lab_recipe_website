@@ -33,23 +33,25 @@ const Display = () => {
     const averageRating = totalRating / cakes.length
 
     return (
-        <div className="display">
-            <h2>Welcome to the Bakery!</h2>
-            <div className="display_cakes">
-                {cakes.map(cake => (
-                    <div className="display_cake" key={cake.cakeName}>
-                        <img src={cake.url}/>
-                        <p>Ingredients:</p>
-                        <ul className="display_ingredients">
-                            {cake.ingredients.map(ingredient => <li key={ingredient}>{ingredient}</li>)}
-                        </ul>
-                    </div>
-                ))}
-            </div>
-            <div className="avg_rating">
+        <>
+            <section className="display">
+                <h2>Welcome to the Bakery!</h2>
+                <div className="display_cakes">
+                    {cakes.map(cake => (
+                        <div className="display_cake" key={cake.cakeName}>
+                            <img src={cake.url}/>
+                            <p>Ingredients:</p>
+                            <ul className="display_ingredients">
+                                {cake.ingredients.map(ingredient => <li key={ingredient}>{ingredient}</li>)}
+                            </ul>
+                        </div>
+                    ))}
+                </div>
+            </section>
+            <section className="avg_rating">
                 <h3>Average rating: {averageRating}</h3>
-            </div>
-        </div>
+            </section>
+        </>
     )
 }
 
