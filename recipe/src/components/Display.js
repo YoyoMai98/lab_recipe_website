@@ -1,3 +1,5 @@
+import "./Display.css"
+
 const Display = () => {
 
     const cakes = [
@@ -8,16 +10,16 @@ const Display = () => {
             url: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lemon-drizzle-loaf-cake-landscape-1567167558.jpg"
         },
         {
-            cakeName: "Tea Loaf",
-            ingredients: ["eggs", "oil", "dried fruit", "sugar", "self-raising flour", "strong tea"],
-            rating: 3,
-            url: "https://food-images.files.bbci.co.uk/food/recipes/earl_grey_tea_bread_48452_16x9.jpg"
-        },
-        {
             cakeName: "Brownie",
             ingredients: ["chocolate", "eggs", "flour", "butter", "walnuts"],
             rating: 4,
             url: "https://img.taste.com.au/gOpVgvz8/taste/2016/11/classic-chewy-brownie-102727-1.jpeg"
+        },
+        {
+            cakeName: "Tea Loaf",
+            ingredients: ["eggs", "oil", "dried fruit", "sugar", "self-raising flour", "strong tea"],
+            rating: 3,
+            url: "https://food-images.files.bbci.co.uk/food/recipes/earl_grey_tea_bread_48452_16x9.jpg"
         },
         {
             cakeName: "Carrot Cake",
@@ -45,7 +47,7 @@ const Display = () => {
                 ))}
             </div>
             <div className="avg_rating">
-                Average rating: {averageRating}
+                <h3>Average rating: {averageRating}</h3>
             </div>
         </div>
     )

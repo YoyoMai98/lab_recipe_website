@@ -1,0 +1,63 @@
+.submit_form {
+    margin-left: 10px;
+    width: 80%;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+label {
+    margin: 0 10px 20px 0;
+    width: 100%;
+    font-weight: 600;
+}
+
+input {
+    border: 1px solid rgb(71, 66, 66, 0.6);
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 3%;
+}
+
+.form_name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_name input {
+    width: 80%;
+}
+
+#fn_form {
+    width: 45%;
+}
+
+#ln_form {
+    width: 45%;
+}
+
+#email_inp {
+    width: 60%;
+}
+
+#recipe_inp {
+    width: 60%;
+    height: 200px;
+}
+
+#submit_btn {
+    width: 90px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(203, 106, 31);
+    color: white;
+    font-weight: 560;
+    border: 1px solid transparent;
+    border-radius: 8%;
+}
+
+#submit_btn:hover {
+    background-color: rgb(191, 130, 55);
+    color: rgb(56, 51, 51);
+}

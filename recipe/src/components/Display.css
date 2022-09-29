@@ -1,0 +1,37 @@
+.display h2 {
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: -3px;
+}
+
+.display_cakes {
+    width: 80%;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.display_cake {
+    display: block;
+    margin: 5px 0;
+    width: 80%;
+}
+
+.display_cake img {
+    width: 100%;
+}
+
+.display_cake p {
+    margin: 3px 10px;
+}
+
+.display_ingredients {
+    list-style: none;
+    margin-top: 0;
+    margin-left: 5px;
+}
+
+.avg_rating {
+    margin-left: 10px;
+    margin-bottom: -5px;
+}
