@@ -26,7 +26,7 @@ input {
 }
 
 .form_name input {
-    width: 80%;
+    width: 100%;
 }
 
 #fn_form {
@@ -38,11 +38,11 @@ input {
 }
 
 #email_inp {
-    width: 60%;
+    width: 50%;
 }
 
 #recipe_inp {
-    width: 60%;
+    width: 50%;
     height: 200px;
 }
 

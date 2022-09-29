@@ -22,3 +22,29 @@
     background-color: rgb(191, 130, 55);
     color: rgb(56, 51, 51);
 }
+
+@media screen and (max-width: 800px) {
+    #search_inp {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #search_inp {
+        width: 130px;
+    }
+
+    #search_btn {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    #search_inp {
+        display: none;
+    }
+
+    #search_btn {
+        display: none;
+    }
+}

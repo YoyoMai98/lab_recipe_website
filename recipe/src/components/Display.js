@@ -40,7 +40,7 @@ const Display = () => {
                     {cakes.map(cake => (
                         <div className="display_cake" key={cake.cakeName}>
                             <img src={cake.url}/>
-                            <p>Ingredients:</p>
+                            <h3>{cake.cakeName}</h3>
                             <ul className="display_ingredients">
                                 {cake.ingredients.map(ingredient => <li key={ingredient}>{ingredient}</li>)}
                             </ul>

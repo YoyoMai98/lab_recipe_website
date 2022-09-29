@@ -5,7 +5,6 @@
 }
 
 .display_cakes {
-    width: 80%;
     margin: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr ;
@@ -21,8 +20,8 @@
     width: 100%;
 }
 
-.display_cake p {
-    margin: 3px 10px;
+.display_cake h3 {
+    margin: 5px 10px;
 }
 
 .display_ingredients {
@@ -34,4 +33,10 @@
 .avg_rating {
     margin-left: 10px;
     margin-bottom: -5px;
+}
+
+@media screen and (max-width: 700px) {
+    .display_cakes {
+        grid-template-columns: 1fr;
+    }
 }
