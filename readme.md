@@ -5,7 +5,7 @@
 
 Going from top to bottom, the sections are:
 
-- **Orange**: a component for title.
-- **Pink**: two components inside, including navigation links on the left and a search bar on the right.
-- **Green**: a main section, a component to display recipes which holds breif and images.
-- **Yellow**: a form component to submit a new recipe which includes first name, last name, email and recipe details.
+- **Orange**: first part of a header, for title.
+- **Pink**: second part of a header, including navigation links on the left and a search bar on the right.
+- **Green**: a section, to display recipes which holds breif and images.
+- **Yellow**: a footer, a form and a button to submit a new recipe which includes first name, last name, email and recipe details.
