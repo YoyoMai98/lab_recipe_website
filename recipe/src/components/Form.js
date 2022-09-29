@@ -1,6 +1,6 @@
 const Form = () => {
     return (
-        <div className="form">
+        <div className="submit_form">
             <div className="form_name">
                 <form id="fn_form">
                     <label htmlFor="fname">First Name</label>
@@ -23,6 +23,7 @@ const Form = () => {
                     <input type="text" id="recipe_inp" />
                 </form>
             </div>
+            <button id="submit_btn">Submit</button>
         </div>
     )
 }
