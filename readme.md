@@ -1,7 +1,7 @@
 # A recipe website
 
 ## Wireframe
-![wireframe]()
+![wireframe](https://github.com/YoyoMai98/lab_recipe_website/blob/main/Recipe%20wireframe.png)
 
 Going from top to bottom, the sections are:
 
