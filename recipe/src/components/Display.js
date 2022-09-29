@@ -37,11 +37,11 @@ const Display = () => {
             <h2>Welcome to the Bakery!</h2>
             <div className="display_cakes">
                 {cakes.map(cake => (
-                    <div className="display_cake">
+                    <div className="display_cake" key={cake.cakeName}>
                         <img src={cake.url}/>
                         <p>Ingredients:</p>
                         <ul className="display_ingredients">
-                            {cake.ingredients.map(ingredient => <li>{ingredient}</li>)}
+                            {cake.ingredients.map(ingredient => <li key={ingredient}>{ingredient}</li>)}
                         </ul>
                     </div>
                 ))}
